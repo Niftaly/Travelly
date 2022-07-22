@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#birinci {
+  background-image: url(Rectangle\ 1\ -\ Köçür.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 320px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 100px;
+}
+
+.imgs #img2 {
+  align-items: center;
+}
+
+/* flex one finish */
+
+.container h1 {
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+#birinci .container p {
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-align: center;
+  padding-top: 195px;
+  padding-bottom: 45px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.text input {
+  padding: 15px 195px 15px 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.daxil {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 15px 47px;
+}
+
+.container button {
+  background-color: #fd4f32;
+  border: none;
+}
+
+.container button:active {
+  background-color: #6d1e10;
+}
+
+/* 1ci hissenin sonu  */
+
+#pro h2 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding-left: 100px;
+  padding-bottom: 16px;
+  padding-top: 60px;
+}
+
+#pro h3 {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+
+.iki {
+  background-color: #eeeeee;
+  padding-bottom: 70px;
+}
+
+.imgdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgdiv div {
+  padding-top: 20px;
+}
+
+.imgdiv img {
+  width: 320px;
+}
+
+.imgdiv h2 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin: auto 60px 10px 30px;
+}
+
+.imgdiv p {
+  width: 204px;
+  height: 75px;
+  margin: 10px 50px 20px 30px;
+  font-size: 15px;
+  line-height: 19px;
+  color: #696969;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.cover2 {
+  width: 320px;
+  filter: drop-shadow(0px 2px 0px #e1e0d8);
+  background-color: #ffffff;
+}
+
+/* 2ci hissenin sonu */
+
+.uc {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bef {
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #323232;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-bottom: 65px;
+}
+
+.doc h3 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}
+
+.doc p {
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 80px;
+  width: 283px;
+}
+
+.footer {
+  padding-bottom: 100px;
+}
+
+.footer h3 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.footer form {
+  display: flex;
+}
+
+.footer input {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding-left: 15px;
+  width: 326px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #eeeeee;
+}
+
+.emailbutton {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.emailbutton button {
+  width: 152px;
+  height: 40px;
+  background-color: #fd4f32;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.emailbutton button:active {
+  background-color: #6d1e10;
+}
+
+/* sonuncu hisse */
+
+.container1 {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 #sonluq p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding: 30px  30px ;
+}
+
+.container1 #sonluqsehife ul {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  padding-top: 33px;
+  padding-right: 80px;
+}
+
+.container1 #sonluqsehife li {
+  padding-right: 25px;
+  display: flex;
+}
